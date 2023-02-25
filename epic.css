@@ -1,0 +1,147 @@
+<style>
+
+
+
+
+p {
+    color:blue;
+}
+
+h1 {
+    background-color:burlywood;
+    font-size:18px;
+    font-family:cursive;
+    color:white;
+    
+}
+
+
+body {
+    text-align:center;
+    font-family:sans-serif;
+}
+
+.sec {
+    background-color:burlywood;
+    font-size:24px;
+    color:white;
+}
+#slider {
+    overflow:hidden;
+}
+
+#sliderfigure {
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation:25s slider infinite;
+    
+    
+
+}
+
+#slider figure img{
+    width:33.33%;
+    float:left;
+}
+
+@keyframes slider{
+    0% {
+        left:0;
+    }
+    33% {
+        left:0;
+    }
+
+    22% {
+        left:-105%;
+    }
+
+    35% {
+        left:-100%;
+    }
+}
+
+.dropbtn {
+    background-color:#8FC1D4;
+    color: white;
+    padding: 12px;
+    font-size:12px;
+    border-radius:6px;
+    width:108px;
+    cursor: pointer;
+    float:left;
+    
+    
+  }
+
+#mydropdown a  {
+    color:burlywood;
+    text-decoration:none;
+    font-size:18px;
+    
+    padding:6px;
+
+}
+
+.spec {
+    font-family:cursive;
+    font-size:18px;
+    color:lightcoral;
+}
+
+
+button {
+    padding:8px;
+    font-size:12px;
+    background-color:#8FC1D4;
+    border-radius:12px;
+    width:108px;
+
+
+}
+
+button:hover {
+    background-color:lightcoral;
+    color:white;
+
+}
+
+.last {
+    font-size:14px;
+    
+}
+
+.last:hover {
+    color:lightcoral;
+    cursor:pointer;
+    
+}
+
+
+.selectmenu {
+    padding:16px;
+    position:relative;
+    left:18px;
+    border-radius:8px;
+
+}
+.number {
+    position:relative;
+    margin-right:322px;
+    
+}
+
+h2 {
+    
+    
+    
+    color:lightcoral;
+    
+}
+
+
+
+
+
